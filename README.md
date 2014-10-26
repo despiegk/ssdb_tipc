@@ -5,7 +5,7 @@
 A high performance network server build on top of rocksdb.
 Rocksdb is a very reliable high performance database.
 
-See if we can do this by improving ssdb.io
+See if we can do this by changing ssdb.io
 
 ## Goals
 
@@ -29,6 +29,7 @@ See if we can do this by improving ssdb.io
 
 ## Tasks
 
+* investigate ssdb see how much needs to be changed
 * spec toml format & command line usage
 * create server in C
 * create client in C
