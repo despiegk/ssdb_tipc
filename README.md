@@ -1,9 +1,11 @@
-# TipcDB
+# SSDB TIPC
 
 ## Intro
 
 A high performance network server build on top of rocksdb.
 Rocksdb is a very reliable high performance database.
+
+See if we can do this by improving ssdb.io
 
 ## Goals
 
@@ -165,11 +167,5 @@ Rocksdb is a very reliable high performance database.
       * when tlogs played back: "promoted master" becomes "master" and "catching up slave" becomes "slave"
         * the tlogs get removed if server was not keeping tlogs
 
-## projects to look at (extend)
-
-* SSDB (can maybe extend SSDB to have above features?)
-* redis
-
-maybe one of these projects can be extended to fit above requirements.
 
 
